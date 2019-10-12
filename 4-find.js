@@ -1,11 +1,12 @@
 /*
-Metoda find() zwraca pierwszy element tablicy, który spełnia warunek podanej funkcji testującej. W przeciwnym razie, 
+Metoda find() zwraca pierwszy element tablicy, który spełnia warunek podanej funkcji testującej. 
+W przeciwnym razie, 
 gdy żaden element tablicy nie spełni warunku, zwracana jest wartość undefined.
 */
 
 
 function isBigEnough(element) {
-    return element.id === 19;
+    return element.id === 19 && element.userId == 2;
   }
 
 
